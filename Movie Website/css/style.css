@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #ffffff;
+}
+.pages {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.container {
+    background-color: #01010e;
+}
+.logo {
+    font-size: 45px;
+    background-color: #010133;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.video {
+    color: #f1c70c;
+    padding: 5px 35px;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 30px;
+    margin-left: 97px;
+    margin-top: -64px;
+}
+.navlinks {
+    margin-top: -30px;
+    margin-left: -10rem;
+    font-size: 18px;
+}
+nav, ul {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+nav, ul, li, a {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    transition: ease 0.5sec;
+}
+a:hover {
+    color: #967c0c;
+}
+.search {
+    color: white;
+    margin-top: -45px;
+    margin-left: 73rem;
+    font-size: 20px;
+}
+.select {
+    margin-top: -37px;
+    margin-left: 77rem;
+    font-size: 20px;
+}
+option {
+    background-color: white;
+}
+.but {
+    display: flex;
+    margin-top: -35px;
+    margin-left: 84rem;
+    border: 2px solid;
+    border-radius: 23px;
+    background-color: #01010e;
+    border-color: #f1c70c;
+    padding: 8px 17px;
+    width: 9rem;
+    transition: ease 0.5sec;
+}
+.but:hover {
+    color: white;
+    background-color: #967c0c;
+}
+
+/*--------HOME BEGINS---------*/
+
+button {
+    background-color: #01010e;
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+#sub2 {
+    background-color: green;
+}
+.sub4 {
+    margin-top: 14rem;
+    margin-left: 2rem;
+}
+h4 {
+    color: #f1c70c;
+    font-size: 38px;
+    margin-top: -2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    color: white;
+    margin-top: 3rem;
+    font-size: 48px;
+}
+p {
+    color: #f1c70c;
+}
+.cal, .time {
+    color: #f8a407;
+    font-size: 23px;
+}
+span {
+    font-size: 23px;
+}
+.sub5 {
+    margin-top: 8%;
+    display: flex;
+    padding: 15px 40px;
+}
+.but1, .but2, .but3, .but4, .but5 {
+    padding: 10px;
+}
+.but1 {
+    margin-top: -15px;
+}
+.but3 {
+    padding: 11px 20px;
+}
+.sub6 {
+    border: 2px solid;
+    border-radius: 23px;
+    background-color: #01010e;
+    border-color: #f1c70c;
+    margin-left: 4%;
+    width: 15rem;
+    height: 50px;
+    display: flex;
+    padding: 7px 18px;
+}
+.play {
+    padding: 3px 0px;
+    color: white;
+    font-size: 23px;
+}
+
+/*------MOVIES BEGINS-----*/
+
+#sub3 {
+    background-color: #00000f;
+}
+.page1 {
+    width: 100%;
+    height: 87vh;
+}
+.page2 {
+    color: #0c0505;
+    background-color: #ffff00;
+    height: 250px;
+    padding: 85px;
+}
+input {
+    margin-left: 65%;
+    height: 50px;
+    width: 28%;
+}
+.input {
+    margin-top: -4%;
+}
+input, placeholder {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons {
+    margin-left: 70%;
+    margin-top: 5%;
+}
+#line {
+    width: 100%;
+    color: white;
+    height: 2px;
+}
+ol {
+    display: flex;
+    margin-top: 4%;
+}
+ol, li {
+    padding: 10px;
+    font-size: 18px;
+}
+.icon2 {
+    display: flex;
+    margin-left: 78%;
+    font-size: 23px;
+    margin-top: -3%;
+}
+.icon2, ion-icon {
+    padding: 10px;
+}
+.page3 {
+    margin-left: 32%;
+    margin-top: 4%;
+}
+html {
+    scroll-behavior: smooth;
+}

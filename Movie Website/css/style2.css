@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------HOME BEGINS-----*/
+
+.container {
+    background-color: #01010e;
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    background-color: #010133;
+    height: 80px;
+}
+h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -73px;
+    margin-left: 72px;
+}
+.video {
+    font-size: 50px;
+    color: #f1c70c;
+    padding: 20px 20px;
+}
+.navlinks {
+    margin-top: -25px;
+    margin-left: -10rem;
+    font-size: 18px;
+}
+nav, ul {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+nav, ul, li, a {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    transition: ease 0.5sec;
+}
+a:hover {
+    color: #967c0c;
+}
+.search {
+    color: white;
+    margin-top: -15px;
+    margin-left: 73rem;
+    font-size: 20px;
+}
+.select {
+    margin-top: -30px;
+    margin-left: 77rem;
+    font-size: 20px;
+}
+option {
+    background-color: white;
+}
+.but {
+    display: flex;
+    margin-top: -43px;
+    margin-left: 84rem;
+    border: 2px solid;
+    border-radius: 23px;
+    background-color: #010133;
+    border-color: #f1c70c;
+    width: 10rem;
+    padding: 10px 28px;
+    transition: ease 0.5sec;
+}
+.but:hover {
+    color: white;
+    background-color: #967c0c;
+    text-transform: uppercase;
+}
+button {
+    font-size: 28px;
+}
+h2 {
+    color: #f1c70c;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 42%;
+    margin-top: 2%;
+}
+h1 {
+    text-transform: uppercase;
+    color: white;
+    margin-left: 38%;
+    margin-top: 2%;
+    font-size: 38px;
+}
+.image {
+    display: flex;
+    margin-top: 3%;
+    float: left;
+}
+.img2, .img3, .img4 {
+    margin-left: 6%;
+}
+.img3, .img4 {
+    margin-left: 10%;
+}
+.img1 {
+    margin-left: 1%;
+}
+span {
+    color: #ffffff;
+    margin-top: 27%;
+    display: flex;
+    margin-left: -18%;
+    margin-top: 21%;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+    color: #f1c70c;
+    margin-right: -5%;
+    font-size: 21px;
+    margin-top: -3%;
+}
+
+/* ABOUT BEGINS */
+
